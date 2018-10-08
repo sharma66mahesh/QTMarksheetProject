@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditDialog</class>
+ <widget class="QDialog" name="EditDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>742</width>
+    <height>430</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>742</width>
+    <height>430</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Edit Window</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>400</y>
+     <width>156</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>10</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;ENTER MARKS FOR THE FOLLOWING SUBJECTS&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>0</y>
+     <width>20</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>331</width>
+     <height>330</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="horizontalSpacing">
+     <number>8</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>15</number>
+    </property>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="a8"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="sub7">
+      <property name="text">
+       <string>Sub7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="sub8">
+      <property name="text">
+       <string>Sub8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLineEdit" name="t7"/>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="a7"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="sub6">
+      <property name="text">
+       <string>Sub6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="sub1">
+      <property name="text">
+       <string>Sub1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="Theory">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Theory&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="Ass">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Assessment&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="a1"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="t1"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="sub3">
+      <property name="text">
+       <string>Sub3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="a2"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="sub2">
+      <property name="text">
+       <string>Sub2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="sub5">
+      <property name="text">
+       <string>Sub5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="t2"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="a4"/>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLineEdit" name="t4"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="a6"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="a5"/>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLineEdit" name="t5"/>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLineEdit" name="t6"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="sub4">
+      <property name="text">
+       <string>Sub4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="sub9">
+      <property name="text">
+       <string>Sub9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="a9"/>
+    </item>
+    <item row="8" column="2">
+     <widget class="QLineEdit" name="t8"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="a3"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLineEdit" name="t3"/>
+    </item>
+    <item row="9" column="2">
+     <widget class="QLineEdit" name="t9"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>281</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="horizontalSpacing">
+     <number>24</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="fName">
+      <property name="text">
+       <string>First Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lNamField"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="fNamField"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lName">
+      <property name="text">
+       <string>Last Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="yearField"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="year">
+      <property name="text">
+       <string>Year</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="cRollField"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="semField"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="camRoll">
+      <property name="text">
+       <string>Campus Roll</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="symbol">
+      <property name="text">
+       <string>Symbol No.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="sem">
+      <property name="text">
+       <string>Sem</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="symbField"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="genSubject">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>390</y>
+     <width>97</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Generate Subjects</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>fNamField</tabstop>
+  <tabstop>lNamField</tabstop>
+  <tabstop>yearField</tabstop>
+  <tabstop>semField</tabstop>
+  <tabstop>cRollField</tabstop>
+  <tabstop>symbField</tabstop>
+  <tabstop>genSubject</tabstop>
+  <tabstop>a1</tabstop>
+  <tabstop>t1</tabstop>
+  <tabstop>a2</tabstop>
+  <tabstop>t2</tabstop>
+  <tabstop>a3</tabstop>
+  <tabstop>a4</tabstop>
+  <tabstop>t4</tabstop>
+  <tabstop>a5</tabstop>
+  <tabstop>t5</tabstop>
+  <tabstop>a6</tabstop>
+  <tabstop>t6</tabstop>
+  <tabstop>a7</tabstop>
+  <tabstop>t7</tabstop>
+  <tabstop>a8</tabstop>
+  <tabstop>t8</tabstop>
+  <tabstop>a9</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>EditDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>547</x>
+     <y>401</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>EditDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>547</x>
+     <y>401</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

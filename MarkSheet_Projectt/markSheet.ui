@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>marksheetForm</class>
+ <widget class="QDialog" name="marksheetForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>673</width>
+    <height>691</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>673</width>
+    <height>691</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>673</width>
+    <height>691</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Student Marksheet</string>
+  </property>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="tu_logo.qrc">:/new/prefix1/images/tu-logo.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="backGround">
+   <property name="geometry">
+    <rect>
+     <x>-25</x>
+     <y>-19</y>
+     <width>731</width>
+     <height>721</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_level">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;Name:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;Level:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;Campus:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;Year/Part:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Header">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>221</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tribhuvan University&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Institute Of Engineering&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Exam Control Division&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Chakupat, Lalitpur&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Regular/ Back Paper Examination&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;/&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Statement Of Marks&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="examRoll_CRN">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>150</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;Exam Roll No.:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;CRN:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;Programme:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fail_absent">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>660</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;* - Fail 	A - Absent&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="Line" name="signLine">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>670</y>
+     <width>118</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="deanSign">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>670</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Asst. Dean&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="remarksTable">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>590</y>
+     <width>651</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>156</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="levelLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>178</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="campusLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>203</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="yearPartLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>225</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="programLabel">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>199</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CRNlabel">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>175</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="symbLabel">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>152</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="marksTable">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>651</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>600</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Grand Total</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="totalLabel">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>600</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>630</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Result</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="resultLabel">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>630</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>backGround</zorder>
+  <zorder>campusLabel</zorder>
+  <zorder>nameLabel</zorder>
+  <zorder>name_level</zorder>
+  <zorder>Header</zorder>
+  <zorder>examRoll_CRN</zorder>
+  <zorder>fail_absent</zorder>
+  <zorder>signLine</zorder>
+  <zorder>deanSign</zorder>
+  <zorder>logo</zorder>
+  <zorder>remarksTable</zorder>
+  <zorder>levelLabel</zorder>
+  <zorder>yearPartLabel</zorder>
+  <zorder>programLabel</zorder>
+  <zorder>CRNlabel</zorder>
+  <zorder>symbLabel</zorder>
+  <zorder>marksTable</zorder>
+  <zorder>label</zorder>
+  <zorder>totalLabel</zorder>
+  <zorder>label_2</zorder>
+  <zorder>resultLabel</zorder>
+ </widget>
+ <resources>
+  <include location="tu_logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

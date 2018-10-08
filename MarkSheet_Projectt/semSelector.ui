@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>semSelectForm</class>
+ <widget class="QDialog" name="semSelectForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>415</width>
+    <height>168</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="sem1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sem 1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sem2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sem 2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sem5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sem 5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sem6">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>100</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sem 6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sem8">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>100</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sem 8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sem7">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>100</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sem 7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sem3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sem 3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sem4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>20</y>
+     <width>75</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sem 4</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
